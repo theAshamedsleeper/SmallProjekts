@@ -1,0 +1,8 @@
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\palindromeChecker\bin\Debug\palindromeChecker.exe.config
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\palindromeChecker\bin\Debug\palindromeChecker.exe
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\palindromeChecker\bin\Debug\palindromeChecker.pdb
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\palindromeChecker\obj\Debug\palindromeChecker.csproj.AssemblyReference.cache
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\palindromeChecker\obj\Debug\palindromeChecker.csproj.SuggestedBindingRedirects.cache
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\palindromeChecker\obj\Debug\palindromeChecker.csproj.CoreCompileInputs.cache
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\palindromeChecker\obj\Debug\palindromeChecker.exe
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\palindromeChecker\obj\Debug\palindromeChecker.pdb
