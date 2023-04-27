@@ -6,3 +6,11 @@ C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\palindromeChecker
 C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\palindromeChecker\obj\Debug\palindromeChecker.csproj.CoreCompileInputs.cache
 C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\palindromeChecker\obj\Debug\palindromeChecker.exe
 C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\palindromeChecker\obj\Debug\palindromeChecker.pdb
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\palindromeChecker\bin\Debug\palindromeChecker.exe.config
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\palindromeChecker\bin\Debug\palindromeChecker.exe
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\palindromeChecker\bin\Debug\palindromeChecker.pdb
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\palindromeChecker\obj\Debug\palindromeChecker.csproj.AssemblyReference.cache
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\palindromeChecker\obj\Debug\palindromeChecker.csproj.SuggestedBindingRedirects.cache
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\palindromeChecker\obj\Debug\palindromeChecker.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\palindromeChecker\obj\Debug\palindromeChecker.exe
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\palindromeChecker\obj\Debug\palindromeChecker.pdb
