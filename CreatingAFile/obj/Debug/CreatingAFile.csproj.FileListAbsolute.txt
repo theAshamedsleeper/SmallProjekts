@@ -1,0 +1,8 @@
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\CreatingAFile\bin\Debug\CreatingAFile.exe.config
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\CreatingAFile\bin\Debug\CreatingAFile.exe
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\CreatingAFile\bin\Debug\CreatingAFile.pdb
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\CreatingAFile\obj\Debug\CreatingAFile.csproj.AssemblyReference.cache
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\CreatingAFile\obj\Debug\CreatingAFile.csproj.SuggestedBindingRedirects.cache
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\CreatingAFile\obj\Debug\CreatingAFile.csproj.CoreCompileInputs.cache
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\CreatingAFile\obj\Debug\CreatingAFile.exe
+C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\CreatingAFile\obj\Debug\CreatingAFile.pdb
