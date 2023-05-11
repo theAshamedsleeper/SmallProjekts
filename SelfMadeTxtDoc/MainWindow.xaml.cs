@@ -3,18 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace SelfMadeTxtDoc
 {
@@ -50,8 +40,6 @@ namespace SelfMadeTxtDoc
                 {
                     File.WriteAllText(saveFileDialog.FileName, words);
                 }
-
-
             }
             catch (Exception MyExcep)
             {
@@ -61,7 +49,7 @@ namespace SelfMadeTxtDoc
 
         private void NewDocBut_Click(object sender, RoutedEventArgs e)
         {
-            string w ="";
+            string w = "";
             words = w;
             InputField.Text = words;
             wordAmount.Clear();
@@ -91,5 +79,17 @@ namespace SelfMadeTxtDoc
                 Console.WriteLine(MyExcep.ToString());
             }
         }
+        private string searchWord;
+        private List<string>searchWordList = new List<string>();
+        private void SearchForWord_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            searchWord = SearchForWord.Text;
+            searchWordList.Add(searchWord);
+            for (int i = 0; i < wordAmount.Count; i++)
+            {
+
+            }
+        }
+
     }
 }
