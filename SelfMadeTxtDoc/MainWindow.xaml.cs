@@ -3,8 +3,13 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Policy;
+using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Documents;
+using System.Windows.Media;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace SelfMadeTxtDoc
 {
@@ -26,7 +31,38 @@ namespace SelfMadeTxtDoc
             wordAmount.Add(words);
             CharactersCount.Text = "Characters: " + words.Count();
         }
+        private void SearchForWord_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            searchWord = SearchForWord.Text;
+            searchWordList.Add(searchWord);
+            //string[] word = words.Split(' ');
 
+            
+            //foreach (string s in word)
+            //{
+            //    if (string.Compare(s, searchWord, StringComparison.OrdinalIgnoreCase) == 0)
+            //    {
+            //        int index n
+            //        InputField.SelectAll();
+            //    }
+            //    else
+            //    {
+
+            //    }
+            //}
+        }
+        private void SearchDocBut_Click(object sender, RoutedEventArgs e)
+        {
+            int index = words.IndexOf(searchWord, StringComparison.OrdinalIgnoreCase);
+
+            while (index >= 0)
+            {
+                InputField.Select(index, searchWord.Length);
+
+                index = words.IndexOf(searchWord, index + searchWord.Length, StringComparison.OrdinalIgnoreCase);
+
+            }
+        }
         private void SaveDocBut_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -81,15 +117,7 @@ namespace SelfMadeTxtDoc
         }
         private string searchWord;
         private List<string>searchWordList = new List<string>();
-        private void SearchForWord_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            searchWord = SearchForWord.Text;
-            searchWordList.Add(searchWord);
-            for (int i = 0; i < wordAmount.Count; i++)
-            {
 
-            }
-        }
-
+        
     }
 }

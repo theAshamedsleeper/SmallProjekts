@@ -19,3 +19,24 @@ C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\SelfMadeTxtDoc\ob
 C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\SelfMadeTxtDoc.pdb
 C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\SelfMadeTxtDoc.genruntimeconfig.cache
 C:\Users\thorb\stuff\HomdeMadeGames\MiniProjekts\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\ref\SelfMadeTxtDoc.dll
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\bin\Debug\net7.0-windows\SelfMadeTxtDoc.exe
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\bin\Debug\net7.0-windows\SelfMadeTxtDoc.deps.json
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\bin\Debug\net7.0-windows\SelfMadeTxtDoc.runtimeconfig.json
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\bin\Debug\net7.0-windows\SelfMadeTxtDoc.dll
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\bin\Debug\net7.0-windows\SelfMadeTxtDoc.pdb
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\SelfMadeTxtDoc.csproj.AssemblyReference.cache
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\App.g.cs
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\SelfMadeTxtDoc_MarkupCompile.cache
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\SelfMadeTxtDoc_MarkupCompile.lref
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\MainWindow.baml
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\SelfMadeTxtDoc.g.resources
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\SelfMadeTxtDoc.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\SelfMadeTxtDoc.AssemblyInfoInputs.cache
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\SelfMadeTxtDoc.AssemblyInfo.cs
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\SelfMadeTxtDoc.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\SelfMadeTxtDoc.dll
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\refint\SelfMadeTxtDoc.dll
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\SelfMadeTxtDoc.pdb
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\SelfMadeTxtDoc.genruntimeconfig.cache
+D:\Program Files (x86)\Homdemade Games\SmallProjekts\SelfMadeTxtDoc\obj\Debug\net7.0-windows\ref\SelfMadeTxtDoc.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thorb\\stuff\\HomdeMadeGames\\MiniProjekts\\SmallProjekts\\SelfMadeTxtDoc\\SelfMadeTxtDoc.csproj": {}
+    "D:\\Program Files (x86)\\Homdemade Games\\SmallProjekts\\SelfMadeTxtDoc\\SelfMadeTxtDoc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thorb\\stuff\\HomdeMadeGames\\MiniProjekts\\SmallProjekts\\SelfMadeTxtDoc\\SelfMadeTxtDoc.csproj": {
+    "D:\\Program Files (x86)\\Homdemade Games\\SmallProjekts\\SelfMadeTxtDoc\\SelfMadeTxtDoc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thorb\\stuff\\HomdeMadeGames\\MiniProjekts\\SmallProjekts\\SelfMadeTxtDoc\\SelfMadeTxtDoc.csproj",
+        "projectUniqueName": "D:\\Program Files (x86)\\Homdemade Games\\SmallProjekts\\SelfMadeTxtDoc\\SelfMadeTxtDoc.csproj",
         "projectName": "SelfMadeTxtDoc",
-        "projectPath": "C:\\Users\\thorb\\stuff\\HomdeMadeGames\\MiniProjekts\\SmallProjekts\\SelfMadeTxtDoc\\SelfMadeTxtDoc.csproj",
+        "projectPath": "D:\\Program Files (x86)\\Homdemade Games\\SmallProjekts\\SelfMadeTxtDoc\\SelfMadeTxtDoc.csproj",
         "packagesPath": "C:\\Users\\thorb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thorb\\stuff\\HomdeMadeGames\\MiniProjekts\\SmallProjekts\\SelfMadeTxtDoc\\obj\\",
+        "outputPath": "D:\\Program Files (x86)\\Homdemade Games\\SmallProjekts\\SelfMadeTxtDoc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
