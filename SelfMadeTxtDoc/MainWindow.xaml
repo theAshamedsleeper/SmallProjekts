@@ -7,12 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel Margin="0,30,0,0" VerticalAlignment="Center" Height="380">
-            <TextBox x:Name="InputField" VerticalAlignment="Center" HorizontalAlignment="Center" Width="780" Height="380" Margin="0,10,0,0" TextWrapping="Wrap" FontFamily="Times New Roman" BorderBrush="{x:Null}" Background="{x:Null}" SelectionBrush="#FF66AAED" FontSize="16" AcceptsTab="True" AcceptsReturn="True"/>
+        <DockPanel VerticalAlignment="Top" HorizontalAlignment="Center" Height="38" Margin="1,1,10,0">
+            <Menu DockPanel.Dock="Top" VerticalAlignment="Center" FontSize="16" Margin="0,0,-0.2,0" Width="781">
+                <MenuItem x:Name="NewDocBut" Header="&#xE710;" FontFamily="Segoe MDL2 Assets" FontSize="16" Height="25" Width="35" Click="NewDocBut_Click"/>
+                <MenuItem x:Name="SaveDocBut" Header="&#xEA35;" FontFamily="Segoe MDL2 Assets" FontSize="16" Height="25" Width="35" Click="SaveDocBut_Click"/>
+                <MenuItem x:Name="OpenDocBut" Header="&#xE838;" FontFamily="Segoe MDL2 Assets" FontSize="16" Height="25" Width="35" Click="OpenDocBut_Click"/>
+            </Menu>
+        </DockPanel>
+        <StackPanel VerticalAlignment="Center" Height="400" Margin="0,40,0,0">
+            <TextBox x:Name="InputField" VerticalAlignment="Center" HorizontalAlignment="Center" Width="780" Height="350" Margin="0,15,0,0" TextWrapping="Wrap" FontFamily="Times New Roman" BorderBrush="{x:Null}" Background="{x:Null}" SelectionBrush="#FF66AAED" FontSize="16" AcceptsTab="True" AcceptsReturn="True" TextChanged="InputField_TextChanged"/>
+            <TextBlock x:Name="CharactersCount" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10,0,0,0" Height="24" Width="200" FontSize="12" Text="Characters:"/>
+
         </StackPanel>
-        <StackPanel Background="LightGray" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Width="800">
-            <Button x:Name="NewDocBut" HorizontalAlignment="Left" Height="30" Width="30" Margin="5,0,0,0"/>
-            <Button x:Name="SaveDocBut" HorizontalAlignment="Left" Height="30" Width="30" Margin="5,0,0,0"/>
-        </StackPanel>
+
     </Grid>
 </Window>
