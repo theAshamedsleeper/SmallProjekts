@@ -18,7 +18,7 @@
         </DockPanel>
         <StackPanel VerticalAlignment="Center" Height="400" Margin="0,40,0,0">
             <ScrollViewer Margin="0,0" >
-            <TextBox x:Name="InputField" VerticalAlignment="Center" HorizontalAlignment="Center" BorderThickness="0" Width="765" Height="350" Margin="0,15,0,0" TextWrapping="Wrap" FontFamily="Times New Roman" BorderBrush="{x:Null}" Background="{x:Null}" SelectionBrush="#FF66AAED" FontSize="16" AcceptsTab="True" AcceptsReturn="True" TextChanged="InputField_TextChanged"/>
+                <TextBox x:Name="InputField" VerticalAlignment="Center" HorizontalAlignment="Center" BorderThickness="0" Width="765" Height="350" Margin="0,15,0,0" TextWrapping="Wrap" FontFamily="Times New Roman" BorderBrush="{x:Null}" Background="{x:Null}" SelectionBrush="#FF66AAED" FontSize="16" AcceptsTab="True" AcceptsReturn="True" TextChanged="InputField_TextChanged"/>
                 
             </ScrollViewer>
             <TextBlock x:Name="CharactersCount" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10,0,0,0" Height="24" Width="200" FontSize="12" Text="Characters:"/>

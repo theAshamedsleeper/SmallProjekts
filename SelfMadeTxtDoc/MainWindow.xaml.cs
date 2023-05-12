@@ -1,15 +1,10 @@
 ﻿using Microsoft.Win32;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Security.Policy;
-using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Documents;
 using System.Windows.Media;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace SelfMadeTxtDoc
 {
@@ -23,26 +18,57 @@ namespace SelfMadeTxtDoc
             InitializeComponent();
         }
         //max length of a string is 2.147.483.648 or 2^31
-        private List<string> wordAmount = new List<string>();
         private string words;
+        private string searchWord;
         private void InputField_TextChanged(object sender, TextChangedEventArgs e)
         {
             words = InputField.Text;
-            wordAmount.Add(words);
             CharactersCount.Text = "Characters: " + words.Count();
         }
         private void SearchForWord_TextChanged(object sender, TextChangedEventArgs e)
         {
             searchWord = SearchForWord.Text;
-            searchWordList.Add(searchWord);
-            //string[] word = words.Split(' ');
 
-            
-            //foreach (string s in word)
+            string[] word = words.Split(' ');
+
+            foreach (string s in word)
+            {
+                int index = 0;
+                while (index < words.Length)
+                {
+                    int wordStarIndex = string.Compare(s, searchWord, StringComparison.OrdinalIgnoreCase);
+                    if (wordStarIndex != -1)
+                    {
+                        InputField.SelectionStart = wordStarIndex;
+                        InputField.SelectionLength = word.Length;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                    index += wordStarIndex + word.Length;
+                }
+                //https://www.youtube.com/watch?v=kfbkLxH8xDI
+            }
+
+
+
+
+            //TextSelection[] textSelections;
+
+            //int index = words.IndexOf(searchWord, StringComparison.OrdinalIgnoreCase);
+
+            //if (index >= 0)
+            //{
+            //    InputField.Select(index, searchWord.Length);
+
+            //}
+
+
+
             //{
             //    if (string.Compare(s, searchWord, StringComparison.OrdinalIgnoreCase) == 0)
             //    {
-            //        int index n
             //        InputField.SelectAll();
             //    }
             //    else
@@ -88,7 +114,6 @@ namespace SelfMadeTxtDoc
             string w = "";
             words = w;
             InputField.Text = words;
-            wordAmount.Clear();
 
         }
 
@@ -115,9 +140,7 @@ namespace SelfMadeTxtDoc
                 Console.WriteLine(MyExcep.ToString());
             }
         }
-        private string searchWord;
-        private List<string>searchWordList = new List<string>();
 
-        
+
     }
 }
